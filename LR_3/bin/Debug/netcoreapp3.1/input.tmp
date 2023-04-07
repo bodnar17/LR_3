@@ -1,0 +1,14 @@
+#include <iostream>
+
+void printHelperMessage()
+{
+    std::cout << "This is a helper message." << std::endl;
+}
+
+int main()
+{
+    std::cout << "Hello, world!" << std::endl;
+    printHelperMessage();
+
+    return 0;
+}
